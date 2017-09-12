@@ -49,9 +49,6 @@ def lda_loss(n_components, margin):
         # compute between scatter
         Sb_t = St_t - Sw_t
 
-        #costs = T.nlinalg.trace(T.dot(T.nlinalg.matrix_inverse(St_t), Sb_t))
-        #return -costs
-
         # cope for numerical instability (regularize)
         Sw_t += T.identity_like(Sw_t) * r
 
