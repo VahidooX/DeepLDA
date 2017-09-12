@@ -2,7 +2,7 @@
 
 This is an implementation of Deep Linear Discriminant Analysis (Deep LDA) in Python. It needs Theano and Keras libraries to be installed.
 
-Deep LDA is a non-linear version of LDA which uses neural networks as the mapping functions instead of linear transformers. Deeep LDA is originally proposed in the following paper:
+Deep LDA is a non-linear version of LDA which uses neural networks as the mapping functions instead of linear transformers. Deep LDA is originally proposed in the following paper:
 
 Matthias Dorfer, Rainer Kelz, Gerhard Widmer, "[Deep Linear Discriminant Analysis](https://arxiv.org/abs/1511.04707)", ICLR, 2016.
 
@@ -20,4 +20,4 @@ The model is trained on MNIST dataset.
 ### Other Implementation
 The following is the link to the original implementation given by the authors. I adopted the loss function from here:
 
-* [Theano and Lasagne implementation](https://github.com/CPJKU/deep_lda) from https://github.com/CPJKU/deep_lda
+* [Theano and Lasagne implementation](https://github.com/CPJKU/deep_lda) from https://github.com/CPJKU/
