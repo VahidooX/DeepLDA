@@ -14,10 +14,10 @@ The model used is an MLP and it is different from the ones used in the original 
 The model is trained on MNIST dataset.
 
 ### Differences with the original paper
-+ The main difference between my implementation and the original paper is the network architecture. They used CNN in the original papers. This one uses MLP. You can easily change the model.
++ The main difference between my implementation and the original paper is the network architecture. They used CNN in the original paper, but this implementation uses MLP. You can easily change the model.
 + I used linear SVM to train a classifier on the new features but they employed a simpler classification approach which does not need more training.
 
 ### Other Implementation
-The following is the link to the original implementation given by the authors. I got and adopted the loss function from here:
+The following is the link to the original implementation given by the authors. I adopted the loss function from here:
 
 * [Theano and Lasagne implementation](https://github.com/CPJKU/deep_lda) from https://github.com/CPJKU/deep_lda

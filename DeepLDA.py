@@ -23,7 +23,6 @@ if __name__ == '__main__':
     batch_size = 800
 
     # the regularization parameter of the network
-    # seems necessary to avoid the gradient exploding especially when non-saturating activations are used
     reg_par = 1e-5
 
     # The margin and n_components (number of components) parameter used in the loss function
