@@ -55,7 +55,7 @@ def lda_loss(n_components, margin):
         # return T.cast(T.neq(yt[0], -1), 'float32')*T.nlinalg.trace(T.dot(T.nlinalg.matrix_inverse(St_t), Sb_t))
 
         # compute eigenvalues
-        evals_t = T.slinalg.eigvalsh(Sb_t, St_t)
+        evals_t = T.slinalg.eigvalsh(Sb_t, Sw_t)
 
         # get eigenvalues
         top_k_evals = evals_t[-n_components:]
